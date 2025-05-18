@@ -14,35 +14,6 @@ RRTx is an asymptotically optimal sampling-based replanning algorithm for dynami
 
 
 
-Usage
------
-
-1. **Make your own workspace and build**
-
-    To use this planner, check it out in your local catkin workspace:
-    ```
-    $ cd ~/catkin_ws/src
-    $ git clone https://github.com/kangbeenlee/rrtx_global_planner.git
-    $ cd ..
-    $ catkin_make
-    ```
-
-2. **Place plugin as shared object**
-    
-    Now the planner should be placed as shared object in the devel/lib folder.
-    List the plugin with the command:
-    ```
-    $ rospack plugins --attrib=plugin nav_core
-    ```
-
-3. **Use the plugin**
-    
-    After 2nd step, you can use this plugin together with the move_base node.
-    Then, use the plugin in your move_base_parameters.yaml file:
-    ```
-    base_global_planner: rrtx_global_planner/RRTXPlanner
-    ```
-
 Reference
 -----
 
