@@ -31,7 +31,7 @@ How to use
 -----
 
     ```
-    $ git clone https://github.com/kangbeenlee/sampling-based-algorithms-cpp.git
+    $ git clone git@github.com:phatcvo/Sampling-based-Path-Planning-Algorithms.git
     $ cd sampling-based-algorithms-cpp
     $ cd (Any directory what you wanna implement e.g. rrt, rrt_connect, ...)
     $ mkdir build && cd build
